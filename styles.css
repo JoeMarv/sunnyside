@@ -59,7 +59,10 @@ body {
     flex-direction: column;
     position: absolute;
     right: 4vw;
-    top: 16vw
+    top: 16vw;
+    height: 0vw;
+    overflow: hidden;
+    transition: var(--transition);
 }
 
 .triangle {
@@ -74,4 +77,39 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--clr-white);
+    width: 92vw;
+    align-items: center;
+    padding: 2vw 0vw;
+}
+
+/* Menu content toggle start */
+    .open {
+        height: 20rem;
+        transition: var(--transition);
+    }
+/* Menu content toggle end */
+
+.menu-content span {
+    margin: 4vw 0vw;
+    font-family: var(--ff-barlow);
+    font-weight: 600;
+    color: var(--clr-grayish-blue);
+}
+
+.menu-content button {
+    font-family: var(--ff-fraunces);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 4vw 6vw;
+    border-radius: 8vw;
+    border: none;
+    background-color: var(--clr-yellow);
+    margin: 4vw 0vw;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.menu button:hover {
+    background-color: var(--clr-grayish-blue);
+    color: var(--clr-white);
 }
