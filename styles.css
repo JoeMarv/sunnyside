@@ -35,10 +35,10 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-image: url(images/mobile/image-header.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    height: 144vw;
 }
 
 .buttons-section {
@@ -52,6 +52,7 @@ body {
     background-color: inherit;
     border: none;
     cursor: pointer;
+    padding: 0vw;
 }
 
 .menu {
@@ -112,4 +113,23 @@ body {
 .menu button:hover {
     background-color: var(--clr-grayish-blue);
     color: var(--clr-white);
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header h2 {
+    font-family: var(--ff-fraunces);
+    font-weight: 900;
+    color: var(--clr-white);
+    text-align: center;
+    letter-spacing: 2vw;
+    font-size: 2em;
+}
+
+.main-header img {
+    align-self: center;
+    margin-top: 16vw;
 }
