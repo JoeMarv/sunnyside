@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+:root {
+    --ff-barlow: 'Barlow', sans-serif; /*font-weight: 600*/
+    --ff-fraunces: 'Fraunces', serif; /*font-weight: 700,900 */
+    --transition: all 0.3s ease;
+    --clr-soft-red: hsl(7, 99%, 70%);
+    --clr-yellow: hsl(51, 100%, 49%);
+    --clr-dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --clr-dark-blue: hsl(198, 62%, 26%);
+    --clr-dark-moderate-cyan: hsl(168, 34%, 41%);
+    --clr-very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --clr-very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --clr-dark-grayish-blue: hsl(232, 10%, 55%);
+    --clr-grayish-blue: hsl(210, 4%, 67%);
+    --clr-white: hsl(0, 0%, 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+body {
+    margin: 0vw;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttons-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6vw 4vw;
+}
+
+.menu-btn button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 4vw;
+    top: 16vw
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 8vw solid var(--clr-white);
+    border-left: 8vw solid transparent;
+    align-self: flex-end;
+  }
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-white);
+}
