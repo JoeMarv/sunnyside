@@ -612,3 +612,140 @@ body {
         margin: 0vw 1vw;
     }
 }
+
+/* For screens >= 1440px */
+@media screen and (min-width: 1440px) {    
+    .buttons-section {
+        margin: 2vw 4vw;
+    }
+
+    .logo img {
+        width: 8vw;
+    }
+    
+    .menu-content {
+        margin: 2vw 4vw;
+    }    
+
+    .menu-content span {
+        margin: 0vw 1vw;
+        font-size: 0.75em;
+    }
+    
+    .menu-content button {
+        padding: 1vw 2vw;
+        border-radius: 4vw;
+        margin: 0vw 0vw 0vw 2vw ;
+        font-size: 0.75em;
+    }
+    
+    .main-header h2 {
+        letter-spacing: 0.5vw;
+        font-size: 2em;
+        margin: 6vw 0vw;
+    }
+    
+    .main-header img {
+        margin-top: 3vw;
+        height: 8vw;
+    }
+    
+    .content h3 {
+        font-size: 2.4em;
+        margin: 12vw 8vw 2vw 12vw;
+    }
+    
+    .content span {
+        margin: 0vw 8vw 2vw 12vw;
+        font-size: 0.9em;
+        line-height: 1.6;
+    }
+    
+    .content button {
+        padding: 0vw 1vw;
+        border-radius: 4vw;
+        font-size: 1em;
+        height: 1vw;
+        margin: 0vw 0vw 0vw 12vw;
+    }
+
+    .article {
+        width: 50vw;
+        height: 42vw;
+        padding: 0vw;
+        text-align: center;
+    }
+   
+    .article h3 {    
+        font-size: 2em;
+    }
+    
+    .article span {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin: 0vw 10vw 4vw 10vw
+    }
+    
+    .testimonials {
+        padding: 4vw;
+    }
+    
+    .testimonial-header {
+        margin: 0vw;
+        font-size: 1.4em;
+    }
+
+    .testimonials-container {
+        margin: 0vw 0vw 4vw 0vw;
+    }
+    
+    .testimonial {
+        margin: 0vw 1vw;
+    }
+    
+    .pfp img {
+        width: 8vw;
+        height: 8vw;
+        margin: 4vw 0vw;
+    }
+    
+    .testimonial-main {
+        font-size: 1em;
+        margin: 0vw 0vw 4vw 0vw
+    }
+    
+    .testimonial-name h3 {
+        font-size: 1em;
+        margin: 2vw 0vw 0vw 0vw;
+    }
+    
+    .testimonial-name span {
+        font-size: 0.9em; 
+    }
+  
+    .footer {
+        padding: 4vw 0vw;
+    }
+    
+    .footer-logo img {
+        width: 12vw;
+    }
+    
+    .links {
+        margin: 2vw 0vw ;
+        font-size: 1.2em;
+    }
+
+    .links span {
+        margin: 0vw 2vw;
+    }
+    
+    .socials {
+        margin: 4vw 0vw 0vw 0vw;
+    }
+    
+    .socials img {
+        width: 2vw;
+        margin: 0vw 1vw;
+    }
+}
